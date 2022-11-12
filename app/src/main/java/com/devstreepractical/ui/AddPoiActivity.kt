@@ -116,6 +116,7 @@ class AddPoiActivity : AppCompatActivity() {
 
     }
 
+
     private val filterTextWatcher: TextWatcher = object : TextWatcher {
         override fun afterTextChanged(s: Editable) {
             if (s.toString() != "") {
